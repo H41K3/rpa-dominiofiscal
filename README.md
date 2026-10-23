@@ -31,7 +31,7 @@ Como o sistema legado não possui API aberta, a automação foi construída base
 6. Gravação e atualização do log.
 
 ## ⚙️ Tecnologias Utilizadas
-- **Python 3.x**
+- **Python 3.15**
 - **Pandas:** Para manipulação, limpeza e filtro dos dados estruturados.
 - **PyWinAuto:** Para injeção de comandos de teclado nativos no Windows.
 - **Tkinter:** Utilizado de forma "headless" para manipular e higienizar a área de transferência do sistema (Clipboard).

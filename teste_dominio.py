@@ -18,7 +18,7 @@ def verificar_seguranca():
         print("A tecla ESC foi detetada. O robô foi abortado imediatamente.")
         print("O seu teclado e rato estão livres.")
         print("="*60)
-        os._exit(1) # Corta o processo instantaneamente pela raiz
+        os._exit(1)
 
 def pausa_segura(segundos):
     """Substitui o time.sleep() padrão para vigiar o ESC a cada 0.1 segundos durante as esperas."""
@@ -146,7 +146,7 @@ for i in range(10, 0, -1):
     print(f"Iniciando em {i} segundos... Mude para o Domínio! ", end='\r')
     pausa_segura(1.0)
 
-print("\n\n[ROBÔ TRABALHANDO] Por favor, não mexa no teclado nem no rato!")
+print("\n\n[ROBÔ TRABALHANDO] Por favor, não mexa nos periféricos.")
 
 # --- 3. LOOP DE PREENCHIMENTO ---
 try:
